@@ -1,0 +1,15 @@
+h3 {
+    font-size:25px !important;
+}
+.btn-success:hover{
+    background-color: teal;
+    font-size:25px;
+}
+canvas{
+    border:5px solid hotpink;
+    animation:Example 3s infinite;
+}
+@keyframes Example{
+    from{box-shadow:1px 1px 30px teal;}
+    to{box-shadow:1px 1px 30px gold;}
+}
