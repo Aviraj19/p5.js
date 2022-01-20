@@ -1,11 +1,11 @@
 nosex=""
 nosey=""
 function preload() {
-img="https://i.postimg.cc/fL8Q3dv5/handlebar-moustache-clip-art-mustache.jpg"
+img = loadImage("https://i.postimg.cc/C5NRM8ww/handlebar-moustache-clip-art-mustache-removebg-preview.png")
 }
 
 function setup() {
-    canvas = createCanvas(600, 500);
+    canvas = createCanvas(600,500);
     canvas.center();
     video =createCapture(VIDEO);
     video.size(600,500);
@@ -27,7 +27,7 @@ function getposes(results) {
 }
 function draw() {
 image(video,0,0,600,500)
-img(nosex,nosey,30,30)
+image(img,nosex-40,nosey-17,90,70)
 }
 
 function takesnapshot() {
